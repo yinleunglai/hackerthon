@@ -1,0 +1,17 @@
+.knowledge__video-container {
+	display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: no-repeat url(/assets/images/rectangle-scribble-frame-1.png);
+    // background-color: red;
+    background-size: 604px 377px;
+    width: 604px;
+    height: 380px;
+    margin: auto;
+
+	.knowledge__video {
+		width: 512px;
+		height: 288px;
+		margin: 46px;
+	}
+}
