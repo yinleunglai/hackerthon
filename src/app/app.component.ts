@@ -28,7 +28,7 @@ export class AppComponent {
   initializeApp() {
     this.platform.ready().then(() => {
       // set to landscape
-      this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.LANDSCAPE);
+      // this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.LANDSCAPE);
       this.statusBar.styleDefault();
       this.splashScreen.hide();
       
