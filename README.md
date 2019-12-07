@@ -1,3 +1,9 @@
 2019-12 Fintech Hackerthon
 
-test commited by Steven
+1.npm install
+2.npm start
+ 
+
+build for ios
+
+ionic cordova build ios 
