@@ -1,0 +1,7 @@
+{
+  "name": "finForFun",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
