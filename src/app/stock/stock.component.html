@@ -14,23 +14,23 @@
 	<div class="info">
 		
 		<div class="price">
-			<h1>price</h1>
+			<h1>Price</h1>
 			<p>{{item.price}}</p>
 		</div>
 		<div class="amount">
-			<h1>stock</h1>
+			<h1>Stock</h1>
 			<p>{{item.amount}}</p>
 		</div>
 	</div>
 	<div class="actions">
-		<button (click)="buy(item,i)">buy</button>
-		<button (click)="sell(item,i)">sell</button>
+		<button (click)="buy(item,i)">Buy</button>
+		<button (click)="sell(item,i)">Sell</button>
 	</div>
 </div>
 
 </div>
 <div class="status">
 
-		<div class="weather"><img src="assets/images/stock/sunny.png"></div>
+		<div class="weather" ><img [src]="status"></div>
 		<div class="balance">{{ banlance| currency:'USD':true}}</div>
 	</div>	

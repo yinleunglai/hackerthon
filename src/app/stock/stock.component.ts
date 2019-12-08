@@ -8,6 +8,9 @@ import { AlertController } from '@ionic/angular';
 })
 export class StockComponent implements OnInit {
   banlance=100000;
+  
+  status=this.getStatus();
+
   list=[
    {
      'id':1,
@@ -26,8 +29,8 @@ export class StockComponent implements OnInit {
   },
   {
     'id':4,
-    'price':this.getRandonValue(),
-    'amount':0,
+    'price':70,
+    'amount':50,
   }
   ];
 
@@ -109,7 +112,14 @@ export class StockComponent implements OnInit {
 
     await alert.present();
   }
+getStatus(){
 
+   let marketStaus=["assets/images/stock/sunny.png","assets/images/stock/badWeather.png"]
+    var y =Math.round(Math.random());
+    
+    return marketStaus[y];
+  
+}
 
 
 }
