@@ -1,14 +1,24 @@
 @import '../../assets/css/variables.scss';
 
-.homework-popup__container {
+ion-content{
+    --background: transparent !important;
+    
+}
 
-    background-color: #000;
+.homework-popup__container {
     background: no-repeat url("/assets/images/homework/popup-bg.png");
     background-size: 580px 380px;
     width: 690px;
-    height: 500px;
+    height: 380px;
     margin: auto;
    
+}
 
-	
+
+
+.confirm {
+
+    margin-top: 280px;
+    margin-left: 150px;
+
 }
