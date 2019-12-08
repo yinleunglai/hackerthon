@@ -4,33 +4,35 @@
  <video autoplay loop muted playsinline src="assets/bg.mp4"></video>
 
     <ion-card class="welcome-card">
+            <ion-card-header>
+                <ion-card-title>Do you know?</ion-card-title>
+            </ion-card-header>
 
         <ion-card-content>
             <p  style="font-family:'Fmonospace';color: white">
                 <b>MONEY</b> is something that lets us buy things we want. It is made up of coins and notes. You might get money from your parents or grandparents as a gift for your birthday or other special occasions, for doing jobs around the house, or by selling things you don't want anymore.
-                <a href="#" [routerLink]="['/knowledge']">Find more</a>
-  
+                <a class="welcome-card--a" href="#" [routerLink]="['/knowledge']">Find more</a>
             </p>
         </ion-card-content>
     </ion-card>
     <ion-slides pager="true" [options]="slideOpts">
-        <ion-slide>
+        <ion-slide class="bg-img bg-img--bank">
             <h1>
                 <a href="#" [routerLink]="['/bank']">bank</a>
             </h1>
         </ion-slide>
-        <ion-slide>
+        <ion-slide class="bg-img bg-img--market">
             <h1>
                 <a href="#" [routerLink]="['/market']">market</a>
             </h1>
             
         </ion-slide>
-        <ion-slide>
+        <ion-slide class="bg-img bg-img--work">
             <h1>
                 <a href="#" [routerLink]="['/work']">homework</a>
             </h1>
         </ion-slide>
-        <ion-slide>
+        <ion-slide class="bg-img bg-img--travel">
             <h1>
                 <a href="#" [routerLink]="['/travel']">travel</a>
             </h1>
