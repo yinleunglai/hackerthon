@@ -10,4 +10,17 @@
 
 <ion-content>
 
+  	<div  class="homework__container">
+        <div class="homework__type-section">
+        
+          <ion-slides pager="true" [options]="slideOpts" >
+
+              <ion-slide *ngFor="let slide of slides">
+                  <img (click) = "ionSlideClick()"  [src]="slide.url">
+              </ion-slide>
+            </ion-slides>
+
+        </div>
+      </div>
+
 </ion-content>
