@@ -1,13 +1,19 @@
-
+@import '../../assets/css/variables.scss';
+.wrapper{
+    height: 724px; 
+    padding-top: 74px;
+    background: $bg-color url('/assets/images/stock/mainBg.png') no-repeat;
+}
 .stockList{
 
-    height: 500px; 
+   height: 500px;
+   margin-left: 60px;
 }
 .stock{
     float: left;
     width: 144px;
     height: 287px;
-    margin: 0 50px;
+    margin: 0 40px;
 }
 .stockPriceBar{
 
@@ -83,12 +89,13 @@
 }
 
 .status{
-    margin: 15px 50px 0;
+    margin: 5px 50px 0;
 
     .weather{
         float: left;
         width: 111px;
         height: 82px;
+        margin-left: 67px;
         background:url('/assets/images/stock/wearther-bg.png') repeat-y;
     }
     .balance{
@@ -96,7 +103,7 @@
         width: 634px;
         height: 71px;
         background:url('/assets/images/stock/balance_bg.png') no-repeat; 
-        margin-right: 45px;
+        margin-right: 16px;
         margin-top: 5px; 
      
         font-weight: bold;
