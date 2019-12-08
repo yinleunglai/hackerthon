@@ -72,15 +72,19 @@
 
     }
 
+.slide {
+  border-radius: 150px;
+  background-color: #389AE3;
+}
+
 .bg-img {
   background-size: 300px 300px;
   border-radius: 150px;
   background-repeat: no-repeat;
   background-color: #389AE3;
-
-  a {
-    text-indent: -99999px;
-  }
+  display: inline-block;
+  width: 300px;
+  height: 300px;
 }
 
 .bg-img--bank {
