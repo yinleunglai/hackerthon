@@ -74,9 +74,13 @@
 
 .bg-img {
   background-size: 300px 300px;
-  border-radius: 38px;
+  border-radius: 150px;
   background-repeat: no-repeat;
   background-color: #389AE3;
+
+  a {
+    text-indent: -99999px;
+  }
 }
 
 .bg-img--bank {
