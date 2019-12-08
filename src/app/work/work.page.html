@@ -13,22 +13,10 @@
   	<div  class="homework__container">
         <div class="homework__type-section">
         
-          <ion-slides pager="true" [options]="slideOpts" (ionSlideTap)="ionSlideTap()">
+          <ion-slides pager="true" [options]="slideOpts" >
 
-              
-
-              
-              <ion-slide tappable>
-                <img class="imag" src="/assets/images/homework/homejob-type-1.png">
-              </ion-slide>
-              <ion-slide tappable>
-                  <img src="/assets/images/homework/homejob-type-2.png">
-              </ion-slide>
-              <ion-slide tappable>
-                  <img src="/assets/images/homework/homejob-type-3.png">
-              </ion-slide>
-              <ion-slide tappable>
-                  <img src="/assets/images/homework/homejob-type-4.png">
+              <ion-slide *ngFor="let slide of slides">
+                  <img (click) = "ionSlideClick()"  [src]="slide.url">
               </ion-slide>
             </ion-slides>
 

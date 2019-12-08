@@ -8,6 +8,7 @@ import { WorkPageRoutingModule } from './work-routing.module';
 
 import { WorkPage } from './work.page';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -17,18 +18,4 @@ import { WorkPage } from './work.page';
   ],
   declarations: [WorkPage]
 })
-export class WorkPageModule {
-
-  
-
-
-  
-  slideOpts = {
-    initialSlide: 1,
-    speed: 400
-  };
-
-   ionSlideTap() {
-    console.log('do something Tap')
-  }
-}
+export class WorkPageModule {}
