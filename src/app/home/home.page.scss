@@ -1,11 +1,13 @@
 .welcome-card {
-  background-color: #389AE3;
-  width: 80%;
-  margin: 40px auto;
-   ion-card-title {
-    color: white;
-    font-size: 50px;
-    font-family: 'Fhead';
+    background-color: #389AE3;
+    width: 80%;
+    margin: 40px auto;
+    border: 10px solid white;
+    border-radius: 40px;
+    ion-card-title {
+      color: white;
+      font-size: 50px;
+      font-family: 'Fhead';
    }
    p {
     font-size: 24px;
@@ -55,36 +57,29 @@
        // z-index: -1;
     }
 
-    .test{
-
-      width: 100%;
-      height: 100%;
-      background: url('/assets/images/testbg.png');
-
-
-    }
-    .test2{
-
-      width: 100%;
-      height: 100%;
-      background: red;
-
-
-    }
 
 .slide {
-  border-radius: 150px;
+  height: 321.333px;
+  border-radius: 160px;
   background-color: #389AE3;
 }
 
+ion-slide {
+  border: 10px solid white;
+}
+
+ion-slide.swiper-slide-next {
+  border-color: #ffbc00;
+}
+
 .bg-img {
-  background-size: 300px 300px;
-  border-radius: 150px;
-  background-repeat: no-repeat;
-  background-color: #389AE3;
-  display: inline-block;
-  width: 300px;
-  height: 300px;
+    background-size: 280px 280px;
+    border-radius: 140px;
+    background-repeat: no-repeat;
+    background-color: #389AE3;
+    display: inline-block;
+    width: 280px;
+    height: 280px;
 }
 
 .bg-img--bank {
