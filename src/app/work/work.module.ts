@@ -17,4 +17,18 @@ import { WorkPage } from './work.page';
   ],
   declarations: [WorkPage]
 })
-export class WorkPageModule {}
+export class WorkPageModule {
+
+  
+
+
+  
+  slideOpts = {
+    initialSlide: 1,
+    speed: 400
+  };
+
+   ionSlideTap() {
+    console.log('do something Tap')
+  }
+}
