@@ -1,0 +1,36 @@
+<div class="stockList">
+<div class="stock" *ngFor="let item of list;index as i">
+	
+
+	<div class="stockPriceBar">
+		<div class="bar"></div>
+		<div class="priceBg">
+			<div class="price" [ngStyle]="{'height':getHeight(item.price)}"></div>
+		</div>
+		
+		
+	</div>
+	<p class="stockImg"><img src="assets/images/stock/stock-log-{{item.id}}.png"></p>
+	<div class="info">
+		
+		<div class="price">
+			<h1>price</h1>
+			<p>{{item.price}}</p>
+		</div>
+		<div class="amount">
+			<h1>stock</h1>
+			<p>{{item.amount}}</p>
+		</div>
+	</div>
+	<div class="actions">
+		<button (click)="buy(item,i)">buy</button>
+		<button (click)="sell(item,i)">sell</button>
+	</div>
+</div>
+
+</div>
+<div class="status">
+
+		<div class="weather"><img src="assets/images/stock/sunny.png"></div>
+		<div class="balance">{{ banlance| currency:'USD':true}}</div>
+	</div>	

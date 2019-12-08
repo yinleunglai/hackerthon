@@ -1,0 +1,108 @@
+
+.stockList{
+
+    height: 500px; 
+}
+.stock{
+    float: left;
+    width: 144px;
+    height: 287px;
+    margin: 0 50px;
+}
+.stockPriceBar{
+
+    width: 144px;
+    height: 287px;
+    
+    position: relative;
+    .bar{
+        background: url('/assets/images/stock/bar-bg.png') no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    }
+    .priceBg{
+        position: relative;
+        margin-left: 35px;
+      
+     
+    margin-bottom: 42px;
+    height: 235px;
+    }
+    .price{
+        position: absolute;
+        bottom: 0;
+        width: 144px;
+        background:url('/assets/images/stock/price-bg.png') repeat-y;
+       
+    }
+ 
+
+}
+
+.info{
+    width: 146px;
+    height: 69px;
+    background:url('/assets/images/stock/scoreInfo-bg.png') no-repeat;
+    text-align: center;
+
+    .price{
+        width: 50%;
+        float: left;
+        padding-top: 10px;
+    }
+    .amount{
+        width: 50%;
+        float: right;
+        padding-top: 10px;
+    }
+    h1{
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+        height: 30px;
+      //  font-family: 'Fhead';
+    }
+    p{
+        margin: 0;
+    }
+}
+
+.actions{
+    button{
+        width: 59px;
+        height: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background:url('/assets/images/stock/actionBtn-bg.png') no-repeat;
+        color: white;
+        margin: 5px 6px;
+    }
+}
+
+.status{
+    margin: 15px 50px 0;
+
+    .weather{
+        float: left;
+        width: 111px;
+        height: 82px;
+        background:url('/assets/images/stock/wearther-bg.png') repeat-y;
+    }
+    .balance{
+        float: right;
+        width: 634px;
+        height: 71px;
+        background:url('/assets/images/stock/balance_bg.png') no-repeat; 
+        margin-right: 45px;
+        margin-top: 5px; 
+     
+        font-weight: bold;
+        text-align: left;
+        font-size: 28px;
+ 
+    line-height: 71px;
+    padding-left: 50px;
+    }
+}

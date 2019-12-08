@@ -6,4 +6,7 @@
 
 build for ios
 
-ionic cordova build ios 
+ionic cordova build ios
+
+
+ionic generate 
