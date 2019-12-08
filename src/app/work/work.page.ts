@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
+import { WorkPopupComponent } from '../work-popup/work-popup.component';
 
 
 @Component({
@@ -25,12 +26,12 @@ export class WorkPage implements OnInit {
 
   ngOnInit() {
 
-    console.log(this.slides[0].url)
+   
   }
 
   async presentModal() {
     const modal = await this.modalController.create({
-      component: ModalPage
+      component: WorkPopupComponent
     });
     return await modal.present();
   }

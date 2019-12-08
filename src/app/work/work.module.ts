@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { WorkPageRoutingModule } from './work-routing.module';
 
 import { WorkPage } from './work.page';
+import { WorkPopupComponent } from '../work-popup/work-popup.component';
 
 
 @NgModule({
@@ -16,6 +17,8 @@ import { WorkPage } from './work.page';
     IonicModule,
     WorkPageRoutingModule
   ],
-  declarations: [WorkPage]
+  declarations: [WorkPage, WorkPopupComponent ],
+
+  entryComponents: [WorkPopupComponent]
 })
 export class WorkPageModule {}
