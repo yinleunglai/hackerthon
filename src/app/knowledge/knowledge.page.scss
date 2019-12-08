@@ -1,5 +1,10 @@
 @import '../../assets/css/variables.scss';
 
+.ion-header {
+	background-color: $bg-color;
+	color: white;
+}
+
 .knowledge__container {
 	background-color: $bg-color;
 	height: 724px;
@@ -32,10 +37,14 @@
 	}
 
 	.knowledge__text-section {
-		font-family:'Fmonospace';
-		font-size: 31px;
-		color: white;
-		line-height: 50px;
 		margin: 60px 100px 0 100px;
+		background-color: #6791db;
+
+		.knowledge__text {
+			font-family:'Fmonospace';
+			font-size: 20px;
+			color: white;
+			line-height: 36px;
+		}
 	}
 }
